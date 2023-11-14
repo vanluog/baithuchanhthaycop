@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="JavaScript.js"></script>
+    <link href="style.css" rel="stylesheet" />
+
+</head>
+<body>
+
+    <button class="tablink" onclick="openPage('Home', this, 'green')">trang chu</button>
+    <button class="tablink" onclick="openPage('News', this, 'green')" id="defaultOpen">thong tin khach san</button>
+    <button class="tablink" onclick="openPage('Contact', this, 'green')">xem phong</button>
+    <button class="tablink" onclick="openPage('About', this, 'green')">dich vu</button>
+
+    <div id="Home" class="tabcontent">
+        <h3>Home</h3>
+        <p>Home is where the heart is..</p>
+    </div>
+
+    <div id="News" class="tabcontent">
+        <h3>News</h3>
+        <p>Some news this fine day!</p>
+    </div>
+
+    <div id="Contact" class="tabcontent">
+        <h3>Contact</h3>
+        <p>Get in touch, or swing by for a cup of coffee.</p>
+    </div>
+
+    <div id="About" class="tabcontent">
+        <h3>About</h3>
+        <p>Who we are and what we do.</p>
+    </div>
+</body>
+</html>
